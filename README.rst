@@ -203,3 +203,36 @@ Citation
 ~~~~~~~~
 
 If you use scikit-learn in a scientific publication, we would appreciate citations: https://scikit-learn.org/stable/about.html#citing-scikit-learn
+
+About this fork
+------------
+
+The purpose of this fork is to make possibility of making
+changes in scikit-learn private api, which is since version 0.24.0
+impossible to import from outside package. Sometimes there is a need to
+work with private api to extend scikit-learn functionality or append
+custom algorithms.
+
+Installation
+~~~~~~~~~~~
+The easiest way to use this fork is to clone this repository::
+
+    git clone https://github.com/furodmgroup/scikit-learn.git
+
+Then change directory to scikit-learn::
+
+   cd scikit-learn
+
+The next step is to install this fork as a development version.
+The detailed instruction can be found `here <https://scikit-learn.org/dev/developers/advanced_installation.html>`_.
+**Please remember that you do not need to clone the original repository, instead
+use the already cloned copy of this repository.** The recommended way is to create a separate
+venv or conda environment.
+
+Help and Support
+~~~~~~~~~~~
+
+This fork is maintained by `Marcin Mrukowicz <https://github.com/MarcinMrukowicz>`_.
+
+
+

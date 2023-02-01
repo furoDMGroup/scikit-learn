@@ -26,6 +26,7 @@ from ._validation import cross_validate
 from ._validation import learning_curve
 from ._validation import permutation_test_score
 from ._validation import validation_curve
+from ._validation import cross_validate_missing_in_test
 
 from ._search import GridSearchCV
 from ._search import RandomizedSearchCV
@@ -74,6 +75,7 @@ __all__ = [
     "permutation_test_score",
     "train_test_split",
     "validation_curve",
+    "cross_validate_missing_in_test"
 ]
 
 
